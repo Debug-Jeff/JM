@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+    outline: none;
+}
+:root{
+    --main-color: #2AD883;
+    --primary-color: #171C22;
+    --secondary-color: rgb(203, 200, 200);
+    --design-color: white;
+}
+body{
+    background-color: var(--primary-color);
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: var(--primary-color);
+    z-index: 1000;
+}
+
+.logo{
+    display: flex;
+}
+.logo h2{
+    color: var(--design-color);
+    font-weight: 500;
+}
+.frame{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-right: 20px;
+}
+.frame img{
+    height: 100%;
+}
+
+nav a{
+    position: relative;
+    color: var(--design-color);
+    font-size: 500;
+    margin: 15px;
+}
+nav .active{
+    color: var(--main-color);
+}
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: var(--main-color);
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: 0.2s ease-in-out;
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+}
+.social-media .btn-sm{
+    font-weight: 600;
+    color: black;
+    border: 1.5px solid var(--primary-color);
+    background-color: var(--main-color);
+    padding: 5px 15px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.social-media a {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    border: 1.5px solid transparent;
+    border-radius: 50%;
+    margin-left: 5px;
+    color: var(--main-color);
+    transition: .3s ease;
+}
+.social-media a:hover{
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+    color: var(--primary-color);
+}
+.social-media a i{
+    padding: 7.5px;
+}
+.social-media .btn a{
+  color: var(--primary-color);
+  background-color: var(--main-color);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 5px 15px;
+  border: 1.5px solid var(--primary-color);
+  border-radius: 8px;
+  margin-left: 20px;
+  transition: .4s ease;
+  cursor: pointer;
+}
+.social-media .btn a:hover{
+  background-color: var(--primary-color);
+  color: var(--main-color);
+}
+
+.about{
+    min-height: 80lvh;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 7.5%;
+}
+.section1{
+    min-width: 400px;
+}
+.section1 .regular-bg{
+    position: relative;
+    height: 320px;
+    width: 300px;
+    background-color: transparent;
+    border-radius: 40% 60% 34% 66% / 42% 23% 77% 58% ;
+    border: 1px solid var(--design-color);
+    z-index: 10;
+}
+.section1 .solid-bg{
+    position: absolute;
+    top: 130px;
+    height: 300px;
+    width: 300px;
+    background-color: var(--main-color);
+    border-radius: 40% 60% 48% 52% / 20% 46% 54% 80% ;
+    margin-top: -20px;
+    margin-left: 20px;
+    overflow-y: hidden;
+    
+}
+.solid-bg img{
+    height: 108%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.section2{
+    color: var(--design-color);
+}
+.section2 h2{
+    font-size: 40px;
+    color: var(--main-color);
+}
+.section2 h6{
+    color: var(--secondary-color);
+    font-size: 12px;
+}
+
+.section2 h4{
+  margin-top: 10px;
+  font-size: 22px;
+}
+.section2 h4 span{
+  color: var(--main-color);
+}
+.section2 p{
+    margin-top: 5px;
+}
+
+.edu{
+    background-color: var(--main-color);
+    color: white;
+    padding: 40px 7%;
+  }
+  
+  .edu h2{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .grid-bg{
+    display: flex;
+    justify-content: center;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 320px 320px;
+    gap: 30px 50px;
+  }
+  
+  fieldset{
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid var(--primary-color);
+    background-color: transparent;
+  }
+
+  fieldset p{
+    margin-top: 15px;
+    color: var(--primary-color);
+  }
+  legend{
+    padding: 5px;
+    color: var(--design-color);
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .quote{
+    display: flex;
+    align-items: center;
+    border-left: 2px solid var(--primary-color);
+    padding-left: 15px;
+  }
+  .int{
+    padding: 4% 9%;
+  }
+  .int h2{
+    text-align: center;
+    margin-bottom: 15px;
+    color: var(--main-color);
+    font-size: 40px;
+  }
+  .container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+    max-height: 100px;
+    margin-bottom: 15px;
+    padding-top: 25px;
+    transition: max-height 1.2s ease,  opacity 1s ease;
+  }
+  
+  .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  img{
+    height: 50px;
+    margin-right: 15px;
+  }
+
+  .container h4{
+    color: var(--main-color);
+  }
+  .hover-text{
+    opacity: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  .container:hover{
+    max-height: 200px;
+  }
+  .container:hover h4{
+    color: var(--design-color)
+  }
+  .container:hover .hover-text{
+    opacity: 1;
+  }
+  .a, .b, .c, .d, .e, .f, .g{
+    background-color: transparent;
+    transition: .3s ease;
+  }
+  .a:hover, .b:hover, .c:hover, .d:hover,.e:hover, .f:hover, .g:hover{
+    height: 150px;
+    visibility: visible;
+  }
+  
+  .a:hover{
+    background-color: rgb(239, 148, 2);
+    border-color: rgb(239, 148, 2);
+  }
+  .b:hover{
+    background-color: green;
+    border-color: green;
+  }
+  .c:hover{
+    background-color: rgb(236, 248, 0);
+    border-color: rgb(236, 248, 0);
+  }
+  .d:hover{
+    background-color: rgb(0, 106, 205);
+    border-color: rgb(0, 106, 205);;
+  }
+  .e:hover{
+    background-color: rgb(131, 1, 179);
+    border-color: rgb(131, 1, 179);
+  }
+  .f:hover{
+    background-color: rgb(209, 1, 77);
+    border-color: rgb(209, 1, 77);
+  }
+  .g:hover{
+    background-color: rgb(95, 95, 95);
+    border-color: rgb(95, 95, 95);
+  }

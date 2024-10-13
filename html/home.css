@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+    outline: none;
+}
+:root{
+    --main-color: #2AD883;
+    --primary-color: #171C22;
+    --secondary-color: rgb(203, 200, 200);
+    --design-color: white;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: transparent;
+}
+
+.logo{
+    display: flex;
+}
+.logo h2{
+    color: var(--design-color);
+    font-weight: 500;
+}
+.frame{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-right: 20px;
+}
+.frame img{
+    width: 100%;
+}
+
+nav a{
+    position: relative;
+    color: var(--design-color);
+    font-size: 500;
+    margin: 15px;
+}
+nav .active{
+    color: var(--main-color);
+}
+nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: var(--main-color);
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: 0.2s ease-in-out;
+}
+
+nav a:hover::after {
+    transform: scaleX(1);
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+}
+.social-media .btn-sm{
+    font-weight: 600;
+    color: black;
+    border: 1.5px solid var(--primary-color);
+    background-color: var(--main-color);
+    padding: 5px 15px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.social-media a {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    border: 1.5px solid transparent;
+    border-radius: 50%;
+    margin-left: 5px;
+    color: var(--primary-color);
+    transition: .3s ease;
+}
+.social-media a:hover{
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--main-color);
+}
+.social-media a i{
+    padding: 7.5px;
+}
+.social-media .btn a{
+    color: var(--primary-color);
+    background-color: var(--main-color);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 5px 15px;
+    border: 1.5px solid var(--primary-color);
+    border-radius: 8px;
+    margin-left: 20px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+.social-media .btn a:hover{
+    background-color: var(--primary-color);
+    color: var(--main-color);
+}
+
+.home{
+    min-height: 100lvh;
+    width: 100%;
+    background: linear-gradient(to right, transparent 65%, var(--main-color) 35%);
+    display: inline-flex;
+    align-items: center;
+    padding: 0 7.5%;
+    overflow: hidden;
+    gap: 50px;
+}
+.home .sect1{
+    color: var(--design-color);
+}
+.sect1 h1{
+    font-size: 52px;
+}
+.sect1 h1 span{
+    color: var(--main-color);
+}
+.sect1 p{
+    color: var(--secondary-color);
+    font-size: 15px;
+    max-width: 500px;
+}
+.sect1 button{
+    margin-top: 25px;
+    padding: 5px 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background-color: var(--main-color);
+    color: var(--design-color);
+    border: 2px solid var(--main-color);
+    border-radius: 8px;
+    transition: .4s ease;
+    cursor: pointer;
+}
+.sect1 button:hover{
+    background-color: var(--primary-color);
+    color: var(--main-color);
+}
+.sect1 .details{
+    position: absolute;
+    bottom: 40px;
+    border-left: 1.5px solid var(--secondary-color);
+    padding-left: 10px;
+}
+.details p{
+    font-size: 12px;
+}
+.sect2{
+    height: 500px;
+    margin-bottom: -55px;
+    margin-right: -70px;
+}
