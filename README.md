@@ -24,7 +24,7 @@ Here is a list of technologies and tools I'm proficient in:
 
 - **Programming Languages**: Python, Java, HTML, CSS, JavaScript
 - **Web Development**: Figma, Bootstrap, React.js, Node.js
-- **Mobile App Development**: [Any specific tools or languages]
+- **Mobile App Development**: Kotlin
 - **Version Control**: Git, GitHub
 - **Other Tools**: Figma, Visual Studio Code, IntelliJ IDEA
 - **Languages**: Fluent in English and Swahili
@@ -33,7 +33,7 @@ Here is a list of technologies and tools I'm proficient in:
 
 Feel free to reach out to me through the following channels:
 
-- **Email**: [jmutugi2005@gmail.com]
+- **Email**: [jmutugi00.0@gmail.com]
 - **LinkedIn**: [https://www.linkedin.com/in/jeff-mutugi-m-7a2123305/]
 - **GitHub**: [https://github.com/Debug-Jeff]
 - **Portfolio Website**: [Portfolio URL]
