@@ -3,7 +3,7 @@
 
 # Personal Portfolio
 
-Welcome to my personal portfolio! This project showcases my skills, experiences, and projects. It's a snapshot of my journey as a Computer Science student and aspiring tech professional.
+Welcome to my personal portfolio! This project showcases my skills, experiences, and projects. It's a snapshot of my journey as an aspiring tech professional.
 
 ## Table of Contents
 
