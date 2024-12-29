@@ -5,15 +5,6 @@
 
 Welcome to my personal portfolio! This project showcases my skills, experiences, and projects. It's a snapshot of my journey as an aspiring tech professional.
 
-## Table of Contents
-
-1. [About Me](#about-me)
-2. [Skills](#skills)
-3. [Projects](#projects)
-4. [Education](#education)
-5. [Experience](#experience)
-6. [Contact Information](#contact-information)
-
 ## About Me
 
 Hello! I'm [Jeff Mutugi], a Computer Science student at Africa Nazarene University with a passion for technology and innovation. My interests lie in software development, web design, and mobile app development. I'm always looking to learn new skills and take on challenging projects that allow me to grow both personally and professionally.
